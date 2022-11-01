@@ -631,8 +631,7 @@ function btndecrese(itemId){
     document.querySelector('#chackOut').classList.toggle("cart-toggle");
     document.querySelector('#cart-total').classList.toggle("cart-toggle");
     document.querySelector('#desktop-offer').classList.toggle("food-items");
-    document.querySelector("#abou").classList.remove("cart");
-
+   
   
 
     alert("currntly no items in cart");
@@ -654,11 +653,7 @@ function addItems(){
     document.getElementById("food-item").classList.toggle("food-items");
     document.querySelector('#chackOut').classList.toggle("cart-toggle");
     document.querySelector('#cart-total').classList.toggle("cart-toggle");
-    document.querySelector('.header-offer').classList.toggle("food-items");
-    document.querySelector("#abou").classList.add("cart");
-
-
-  }
+    document.querySelector('.header-offer').classList.toggle("food-items");}
   else{
     alert("Currently no Items in cart!")
   }
